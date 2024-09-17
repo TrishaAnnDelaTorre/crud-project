@@ -1,19 +1,18 @@
-/* Ensure the table takes up the full width of its container */
 .table-responsive {
   width: 100%;
-  overflow-x: auto; /* Allows horizontal scrolling if needed */
+  overflow-x: auto; 
 }
 
 .table {
-  width: 100%; /* Ensure the table itself is full-width */
-  border-collapse: collapse; /* Ensures borders between cells merge */
+  width: 100%;
+  border-collapse: collapse; 
 }
 
 .table th,
 .table td {
-  border: 1px solid #dee2e6; /* Add border around table cells */
-  padding: 10px; /* Adjust padding for better appearance */
-  text-align: left; /* Adjust text alignment as needed */
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  text-align: left;
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
@@ -21,25 +20,25 @@
 }
 
 .table-bordered {
-  border: 1px solid #dee2e6; /* Border around the table */
+  border: 1px solid #dee2e6; 
 }
 
 .table thead th {
   background-color: #343a40;
   color: #fff;
-  border-bottom: 2px solid #dee2e6; /* Border at the bottom of table header */
+  border-bottom: 2px solid #dee2e6; 
 }
 
 .btn-primary {
-  background-color: #007bff; /* Custom primary button color */
+  background-color: #007bff; 
 }
 
 .btn-warning {
-  background-color: #ffc107; /* Custom warning button color */
+  background-color: #ffc107;
 }
 
 .btn-danger {
-  background-color: #dc3545; /* Custom danger button color */
+  background-color: #dc3545;
 }
 
 .alert-info {
@@ -53,52 +52,52 @@
 }
 
 .custom-btn {
-  background-color: #007bff; /* Button background color */
-  color: #fff; /* Text color */
-  padding: 10px 20px; /* Padding */
-  border-radius: 5px; /* Rounded corners */
-  text-decoration: none; /* Remove underline */
-  font-weight: bold; /* Make text bold */
-  display: inline-block; /* Align button inline */
-  transition: background-color 0.3s; /* Smooth background color transition */
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none; 
+  font-weight: bold; 
+  display: inline-block; 
+  transition: background-color 0.3s; 
 }
 
 .custom-btn:hover {
-  background-color: #0056b3; /* Darker background on hover */
-  color: #fff; /* Ensure text color remains white */
+  background-color: #0056b3; 
+  color: #fff; 
 }
 
 .custom-edit-btn {
-  background-color: #ffc107; /* Background color (Bootstrap warning color) */
-  color: #212529; /* Text color */
-  padding: 8px 16px; /* Padding */
-  border-radius: 5px; /* Rounded corners */
-  text-decoration: none; /* Remove underline */
-  font-weight: bold; /* Make text bold */
-  display: inline-block; /* Align button inline */
-  transition: background-color 0.3s; /* Smooth background color transition */
+  background-color: #ffc107; 
+  color: #212529; 
+  padding: 8px 16px;
+  border-radius: 5px; 
+  text-decoration: none; 
+  font-weight: bold;
+  display: inline-block; 
+  transition: background-color 0.3s; /
 }
 
 .custom-edit-btn:hover {
-  background-color: #e0a800; /* Darker background on hover */
-  color: #212529; /* Ensure text color remains readable */
+  background-color: #e0a800; 
+  color: #212529;
 }
 
 .custom-delete-btn {
-  background-color: #dc3545; /* Background color for delete button */
-  color: #fff; /* Text color */
-  padding: 8px 16px; /* Padding */
-  border-radius: 5px; /* Rounded corners */
-  border: none; /* Remove border */
-  font-weight: bold; /* Make text bold */
-  display: inline-block; /* Align button inline */
-  cursor: pointer; /* Change cursor to pointer */
-  transition: background-color 0.3s; /* Smooth background color transition */
+  background-color: #dc3545; 
+  color: #fff; 
+  padding: 8px 16px;
+  border-radius: 5px; 
+  border: none; 
+  font-weight: bold;
+  display: inline-block; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
 }
 
 .custom-delete-btn:hover {
-  background-color: #c82333; /* Darker background on hover */
-  color: #fff; /* Ensure text color remains readable */
+  background-color: #c82333; 
+  color: #fff; 
 }
 
 .mb-4 {
@@ -106,91 +105,91 @@
 }
 
 .alert-success {
-  background-color: #d4edda; /* Light green background */
-  color: #155724; /* Dark green text */
-  border-color: #c3e6cb; /* Light green border */
-  padding: 1rem; /* Adjust padding if needed */
-  border-radius: 5px; /* Rounded corners */
-  display: flex; /* Flexbox layout */
-  align-items: center; /* Center items vertically */
+  background-color: #d4edda; 
+  color: #155724; 
+  border-color: #c3e6cb; 
+  padding: 1rem; 
+  border-radius: 5px;
+  display: flex;
+  align-items: center; 
 }
 
 .alert-success i {
-  font-size: 1.5rem; /* Adjust icon size */
-  color: #155724; /* Icon color */
-  margin-right: 0.5rem; /* Space between icon and text */
+  font-size: 1.5rem; 
+  color: #155724; 
+  margin-right: 0.5rem; 
 }
 
 .custom-btn {
-  background-color: #007bff; /* Primary blue background */
-  color: #fff; /* White text color */
-  padding: 10px 20px; /* Padding for button size */
-  border-radius: 5px; /* Rounded corners */
-  border: none; /* Remove border */
-  font-weight: bold; /* Bold text */
-  text-align: center; /* Center text */
-  display: inline-block; /* Align button inline */
-  text-decoration: none; /* Remove underline from links */
-  cursor: pointer; /* Change cursor to pointer */
-  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition effects */
+  background-color: #007bff;
+  color: #fff; 
+  padding: 10px 20px;
+  border-radius: 5px; 
+  border: none; 
+  font-weight: bold; 
+  text-align: center;
+  display: inline-block; 
+  text-decoration: none; 
+  cursor: pointer; 
+  transition: background-color 0.3s, box-shadow 0.3s; 
 }
 
 .custom-btn:hover {
-  background-color: #0056b3; /* Darker blue on hover */
-  color: #fff; /* Ensure text color remains readable */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  background-color: #0056b3; 
+  color: #fff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .custom-btn:focus {
-  outline: none; /* Remove outline on focus */
-  box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5); /* Add focus ring */
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5); 
 }
 
 
 /* Form spacing */
 .form-group {
-    margin-bottom: 1rem; /* Space between form elements */
+    margin-bottom: 1rem; 
 }
 
 .alert {
-    border-radius: 5px; /* Rounded corners for alerts */
-    padding: 15px; /* Padding inside alerts */
-    margin-bottom: 1rem; /* Space below alerts */
+    border-radius: 5px; 
+    padding: 15px; 
+    margin-bottom: 1rem; 
 }
 
 .form-label {
-    font-weight: bold; /* Bold font for labels */
-    display: block; /* Ensure labels are block elements */
-    margin-bottom: 0.5rem; /* Space between label and input */
+    font-weight: bold; 
+    display: block; 
+    margin-bottom: 0.5rem; 
 }
 
 .form-control {
-    width: 100%; /* Full width of the parent container */
-    padding: 0.5rem; /* Padding inside the input */
-    border-radius: 0.25rem; /* Rounded corners */
-    border: 1px solid #ced4da; /* Border color */
-    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1); /* Inner shadow */
-    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth transition */
+    width: 100%;
+    padding: 0.5rem; 
+    border-radius: 0.25rem; 
+    border: 1px solid #ced4da;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out; 
 }
 
 .form-control:focus {
-    border-color: #007bff; /* Border color on focus */
-    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25); /* Focus shadow */
+    border-color: #007bff; 
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25); 
 }
 
 /* Alert styling */
 .alert {
-    border-radius: 0.25rem; /* Rounded corners for alerts */
-    padding: 1rem; /* Padding inside alerts */
-    margin-bottom: 1rem; /* Space below alerts */
+    border-radius: 0.25rem; 
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .alert-danger {
-    background-color: #f8d7da; /* Light red background */
-    color: #721c24; /* Dark red text */
-    border-color: #f5c6cb; /* Light red border */
+    background-color: #f8d7da; 
+    color: #721c24; 
+    border-color: #f5c6cb; 
 }
 
 .container {
-    padding: 0 2rem; /* Add horizontal padding to the container */
+    padding: 0 2rem; 
 }
