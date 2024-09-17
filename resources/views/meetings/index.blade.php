@@ -5,7 +5,7 @@
         <!-- Success Message -->
         @if(session('success'))
             <div class="alert alert-success d-flex align-items-center">
-                <i class="bi bi-check-circle me-2"></i> <!-- Bootstrap Icons check-circle -->
+                <i class="bi bi-check-circle me-2"></i> 
                 <div>
                     {{ session('success') }}
                 </div>

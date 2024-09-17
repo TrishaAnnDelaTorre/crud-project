@@ -18,7 +18,7 @@ class MeetingResource extends JsonResource
             'id' => $this->id,
             'title' => $this->title,
             'description' => $this->description,
-            'meeting_date' => $this->meeting_date->format('Y-m-d'), // Format date as needed
+            'meeting_date' => $this->meeting_date->format('Y-m-d'),
             'created_at' => $this->created_at->toDateTimeString(),
             'updated_at' => $this->updated_at->toDateTimeString(),
         ];

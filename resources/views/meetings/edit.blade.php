@@ -1,5 +1,3 @@
-<!-- resources/views/meetings/edit.blade.php -->
-
 @extends('layouts.app')
 
 @section('content')
